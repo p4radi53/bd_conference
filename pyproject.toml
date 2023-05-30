@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "bd-conference"
+version = "0.1.0"
+description = ""
+authors = ["p4radi53 <adam.raj27@gmail.com>"]
+readme = "README.md"
+packages = [{include = "bd_conference"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyspark = "^3.4.0"
+ipython = "^8.13.2"
+ipykernel = "^6.23.1"
+pandas = "^2.0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
